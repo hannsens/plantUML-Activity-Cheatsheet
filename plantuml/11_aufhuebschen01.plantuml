@@ -1,0 +1,28 @@
+@startuml
+  |Customer|
+  |Dev|
+  |QM|
+  |Customer|
+  start
+  repeat
+  :add Requirment;
+  |Dev|
+  fork
+    :ask Customer>
+	Detach
+	:get response<
+  fork again 
+  :test;
+  fork again
+  :deploy;
+  end
+  fork again 
+  |QM|
+    :Review;
+  end fork
+   |Customer|
+     repeat while () is ([open tasks])
+->[finished];
+|Dev|
+stop 
+@enduml

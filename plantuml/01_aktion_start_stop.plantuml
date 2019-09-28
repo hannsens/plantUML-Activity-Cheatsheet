@@ -1,0 +1,42 @@
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+
+
+
+start
+note right 
+	Startpunkt
+	Tokenquelle
+end note
+:Schritt 1;
+note right
+	Aktion: 
+	in diesem Diagramm 
+	als atomar betrachtete 
+	Funktionseinheiten
+end note
+:Schritt 2;
+stop
+note right 
+	Endpunkt:
+	hier endet 
+	die modellierte
+	Aktivität.
+	Tokensenke
+end note
+
+@enduml

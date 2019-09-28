@@ -1,0 +1,26 @@
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+
+
+
+	start
+	:Schritt 1;
+	:Multiline
+	Schritt **2**;
+	stop
+	@enduml
+@enduml

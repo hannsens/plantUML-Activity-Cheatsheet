@@ -1,0 +1,28 @@
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+
+start
+if() then ([Taste A])
+ :Bewegung nach links;
+elseif() then ([Taste D])
+ :Bewegung nach rechts;
+else ([else])
+  :ignorieren;
+endif
+stop
+	
+@enduml

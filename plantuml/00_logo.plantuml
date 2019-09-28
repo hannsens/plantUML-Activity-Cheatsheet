@@ -1,0 +1,43 @@
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+  |Customer|
+  |Dev|
+  |QM|
+  |Customer|
+  start
+  repeat
+  :add Requirment;
+  |Dev|
+  fork
+    :ask Customer>
+	Detach
+	:get response<
+  fork again 
+  :test;
+  fork again
+  :deploy;
+  end
+  fork again 
+  |QM|
+    :Review;
+  end fork
+   |Customer|
+     repeat while () is ([open tasks])
+->[finished];
+|Dev|
+stop 
+@enduml

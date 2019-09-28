@@ -1,0 +1,38 @@
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+
+
+start
+fork
+    (A)
+    detach
+    (B)
+ fork again
+    :Mach' das;
+  end fork 
+stop
+
+
+(A)
+ repeat
+ :immer wieder das;
+  repeat while () is ([weiter])
+  ->[aufhören];
+(B) 
+
+
+@enduml
