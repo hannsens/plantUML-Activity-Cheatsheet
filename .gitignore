@@ -1,0 +1,46 @@
+# Files created by LaTeX
+*.log
+*.aux 
+*.toc
+
+# Files created by LaTeX Lists
+*.lof 
+*.lot
+
+# Files created by LaTeX Index
+*.idx 
+*.ind 
+*.ilg
+
+# Files created by LaTeX Glossary
+*.glo 
+*.gls 
+*.glg
+
+# Files created by LaTeX BibLaTeX
+*.bbl 
+*.blg
+
+# Files created by LaTeX Hyperref
+*.out
+
+# Files created by LaTeX svn-multi
+*.svn 
+*.svt 
+*.svx
+
+# Files created by LaTeX standalone
+*.sta 
+*.stp
+
+# Files created by LaTeX latexmk tool: 
+*.fdb_latexmk
+
+# Files created by LaTeX endfloat: 
+*.fff
+
+# Files created by LaTeX Other: 
+*.run.xml
+*.synctex.gz
+Material/
+plantuml/*.pdf
