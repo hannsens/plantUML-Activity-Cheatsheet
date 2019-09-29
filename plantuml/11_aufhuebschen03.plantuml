@@ -7,19 +7,7 @@ skinparam monochrome true
 skinparam packageStyle rect
 skinparam shadowing false
 
-skinparam Activity{
-    BackgroundColor snow
-    BorderColor DarkSlateBlue
-    DiamondBackgroundColor ghostwhite
-    DiamondBorderColor DarkSlateBlue
 
-}
-skinparam Note{
-    BorderColor DarkSlateBlue
-    BackgroundColor LightYellow
-}
-
-skinparam ArrowColor DarkSlateBlue
   |Customer|
   |Dev|
   |QM|

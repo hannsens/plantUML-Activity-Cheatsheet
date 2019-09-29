@@ -210,21 +210,26 @@ Im Fokus steht die Modellierung der Abfolge (sequenziell oder parallel), Bedingu
 \begin{tabular}[b]{p{10cm} p{7cm}}
 Aktivitätsdiagramme bestehen aus \textbf{Knoten} und \textbf{Kanten}. Sie nutzen das Tokenmodell: ein \textit{Token} ist eine gedachte Markierung (\textit{Token}) kennzeichnet die momentan ausgeführten Aktionen - vergleichbar mit dem springenden Punkt beim Karaokesingen. Ein Token wird im Startpunkt (\textit{initial node}) erzeugt und durchläuft das Diagramm entlang der Kanten (Pfeile, \textit{edges}). Im Endpunkt (\textit{activity final node}) wird der Token konsumiert und die Aktivität so beendet.
 
-Ein minimales mit PlantUML modelliertes Aktivitätsdiagramm, das einen unverzweigte Aktivität darstellt, sieht etwa so aus:
+Ein minimales mit PlantUML modelliertes Aktivitätsdiagramm, das einen unverzweigte Aktivität darstellt, ist rechts dargestellt.
+
 	&
-	\raisebox{-\height}{
 	
+	\raisebox{-\height}{
+	\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/01_aktion_start_stop.plantuml}{
 	\includegraphics[width=6.5cm]{01_aktion_start_stop}
 }
+}
 \end{tabular}
+Hinweis: Den meisten Diagrammen in diesem Dokument sind Links zu den zugrundeliegenden Vektorgrafiken und Quelltexten hinterlegt. Der die komplette URL öffnet das Diagramm, die zweite Hälfte (nach src=) den Quelltext.
 
-
+\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/01_aktion_start_stop.plantuml}{https://www.plantuml.com/plantuml/proxy?fmt=svg\&src=https://www.quelltext.url/source.plantuml}
 
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/02_minimalbeispiel.plantuml}{
 		\includegraphics[width=2cm]{02_minimalbeispiel}
+	}
 	}
 	&
 	\begin{lstlisting}[style=plantuml]
@@ -238,17 +243,17 @@ stop
 	\end{lstlisting}
 \end{tabular}
 
+
 \newpage
 \section{Kontrollstrukturen: Verzweigung und Vereinigung}
-Neben dem rein sequenziellen unverzweigten Ablauf können auch bedingte Anweisungen modelliert werden. Verzweigungen werden als Entscheidungsknoten (\textit{decision node}) mit dem Raute-Symbol notiert. Die Bedingungen selbst werden als \textit{guard} bezeichnet und -abweichend vom Programmablaufplan- in eckigen Klammern an der jeweiligen Kante notiert. Die Bedingungen müssen als Prädikate formuliert sein - also mit \textit{true} oder \textit{false} auswertbar sein und sollten \textit{disjunkt} sein (sich gegenseitig ausschließen), um ein vorhersagbares Verhalten zu modellieren. 
-
-Daher sollte in den meisten Fällen eine \texttt{[else]}-Kante modelliert werden.
+Neben dem rein sequenziellen unverzweigten Ablauf können auch bedingte Anweisungen modelliert werden. Verzweigungen werden als Entscheidungsknoten (\textit{decision node}) mit dem Raute-Symbol notiert. Die Bedingungen selbst werden als \textit{guard} bezeichnet und -abweichend vom Programmablaufplan- in eckigen Klammern an der jeweiligen Kante notiert. Die Bedingungen müssen als Prädikat formuliert sein - also mit \textit{true} oder \textit{false} auswertbar sein. Sie sollten \textit{disjunkt} sein (sich gegenseitig ausschließen), um ein vorhersagbares Verhalten zu modellieren. Bei einfachen Verzweigungen erreicht man das, in dem zu jeder Bedingung ein \texttt{[else]}-Zweig modelliert wird.
 
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/03_einfacheBedingung.plantuml}{
 		\includegraphics[width=4cm]{03_einfacheBedingung}
+	}
 	}
 	&
 	Bei PlantUML ist die Notation etwas gewöhnungsbedürftig: die erste Bedingung wird hinter \texttt{then()} in Klammern notiert, den \texttt{else}-Block sollte man in jedem Fall notieren:
@@ -265,8 +270,9 @@ endif
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/03_einfacheVerzweigung.plantuml}{
 		\includegraphics[width=6.5cm]{03_einfacheVerzweigung}
+		}
 	}
 	&
 	
@@ -287,13 +293,12 @@ Nicht alle Bedingungen lassen sich unmittelbar als Prädikat formulieren. Sofern
 In PlantUML gibt es diese Möglichkeit nicht, daher muss man sich mit einer Notiz, die neben der vorigen Aktion steht, behelfen. Gemäß UML wird innerhalb der \textit{decision node} nichts notiert - hier weicht die PlantUML-Dokumentation vom UML-Standard ab.
 
 \begin{tabular}[b]{p{7cm} p{10cm}}
-	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/03_komplexereVerzweigung.plantuml}{
 		\includegraphics[width=6.5cm]{03_komplexereVerzweigung}
+		}
 	}
 	&
-	
 	\begin{lstlisting}[style=plantuml]
 note right
 	<<decision input>>
@@ -307,6 +312,7 @@ else ([false])
 endif
 	\end{lstlisting}
 \end{tabular}
+\newpage
 Mehrfache Verzweigungen können durch mehr Kanten realisiert werden, die den \textit{decision node} verlassen. Wichtig ist auch hier, dass die \textit{guards} disjunkt sind.
 
 Leider bietet PlantUML nur die Möglichkeit, zwei ausgehende Kanten an einer \textit{decision node} zu nutzen. Daher müssen multiple Bedingungen als verschachtelte If-Statements modelliert werden:
@@ -314,8 +320,9 @@ Leider bietet PlantUML nur die Möglichkeit, zwei ausgehende Kanten an einer \te
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/03_mehrfacheVerzweigung.plantuml}{
 		\includegraphics[width=6.5cm]{03_mehrfacheVerzweigung}
+		}
 	}
 	&
 	
@@ -330,15 +337,15 @@ endif
 	\end{lstlisting}
 \end{tabular}
 
-
 \section{Wiederholungsstrukturen: kopf- und fussgesteuerte Schleifen}
 Eine nachgelagerte Bedingung, die eine Wiederholung bestimmter Aktionen erzwingt wird über die Rückführung der ausgehenden Kante mit \textit{guard} einer \textit{decision node} modelliert. Bei diesen fussgesteuerten Schleifen werden die Aktionen innerhalb der Schleife in jedem Fall einmal ausgeführt. Mit PlantUML erfolgt die Modellierung mit einem \texttt{repeat / repeat while () is ([ }\textit{guard} \texttt{])}-Block:
 
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/04_fussgesteuerteSchleife.plantuml}{
 		\includegraphics[width=4cm]{04_fussgesteuerteSchleife}
+		}
 	}
 	&
 	
@@ -359,8 +366,9 @@ Im Fall einer kopfgesteuerten Schleife wird die Bedingung zunächst geprüft, di
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/04_kopfgesteuerteSchleife.plantuml}{
 		\includegraphics[width=4cm]{04_kopfgesteuerteSchleife}
+		}
 	}
 	&
 	
@@ -374,15 +382,16 @@ stop
 
 	\end{lstlisting}
 \end{tabular}
-
+\newpage
 \section{Concurrency: Parallelisierung von Aktionen (Splitting und Synchronisation)}
 Im Gegensatz zu einem \textit{decision node} oder \textit{merge node} müssen bei Gabelungen (\textit{fork node}) oder Synchronisierung (\textit{join node}) an allen eingehenden Kanten ein Token anliegen, damit sie wiederum Token weiterreichen. Entsprechend werden an allen ausgehenden Kanten dann Token weitergereicht. Auf diese Art werden parallele Prozesse und Synchronisierungen modelliert.
 
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/05_concurrency.plantuml}{
 		\includegraphics[width=6cm]{05_concurrency}
+		}
 	}
 	&
 	
@@ -407,8 +416,9 @@ Die UML sieht vor, dass modelliert werden kann, welche Akteurin oder welches Sys
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/06_swimlanes.plantuml}{
 		\includegraphics[width=6.5cm]{06_swimlanes}
+		}
 	}
 	&
 	
@@ -443,8 +453,9 @@ Sofern nicht der Kontrollfluss symbolisiert werden soll, sondern konkrete Daten,
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/07_signals.plantuml}{
 		\includegraphics[width=4cm]{07_signals}
+		}
 	}
 	&
 	
@@ -467,8 +478,9 @@ Im Gegensatz zu einem \textit{activity final node} werden nicht alle vorhandenen
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/08_ablaufende.plantuml}{
 		\includegraphics[width=4cm]{08_ablaufende}
+		}
 	}
 	&
 	
@@ -493,8 +505,9 @@ Um Kreuzungen zu vermeiden oder um komplexere Zusammenhänge übersichtlicher da
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/09_sprungmarke.plantuml}{
 		\includegraphics[width=3cm]{09_sprungmarken}
+		}
 	}
 	&
 	
@@ -531,8 +544,9 @@ Aktionen können mit Vor- und Nachbedingungen versehen werden. Diese werden jewe
 \begin{tabular}[b]{p{7cm} p{10cm}}
 	
 	\raisebox{-\height}{
-		
+		\href{http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/hannsens/plantUML-Activity-Infosheet/master/plantuml/10_vornachbedingung.plantuml}{
 		\includegraphics[width=6.5cm]{10_vornachbedingung}
+		}
 	}
 	&
 	
@@ -552,6 +566,25 @@ stop
 	
 	\end{lstlisting}
 \end{tabular}
+\section{plantUML-Webservice}
+PlantUML bietet einen Webservice, der Diagramme unmittelbar online rendert.
+
+Variante 1: der PlantUML-Quelltext ist online als Resource verfügbar und soll gerendert ausgegeben werden. Hierzu muss eine URL nach dem Muster:
+
+\href{http://www.plantuml.com/plantuml/proxy?fmt=epstxt&src=https://raw.githubusercontent.com/hannsens/plantUML-UseCase-InfoSheet/master/plantuml/01_Bestandteile_UseCase.plantuml}{http://www.plantuml.com/plantuml/proxy?fmt=AUSGABEFORMAT\&src=https://URL\_PLANTUMLSOURCE}
+
+erstellt werden, wobei als \textit{AUSGABEFORMAT} \texttt{png}, \texttt{svg}, \texttt{eps}, \texttt{epstext} und \texttt{txt} genutzt werden kann.\\
+
+Variante 2: PlantUML kodiert den Quelltext, um ihn so über den Webservice zugänglich (und bearbeitbar) zu machen. Die URL ist in diesem Fall wie folgt aufgebaut:
+
+\href{http://www.plantuml.com/plantuml/uml/fPA_JWCn3CPdyXHM5yfmBr09gVy40rMNWX28nStvxg9BdCfnE07YtScfAdHWWcon_VtysSayAOhcu4tg7HzGCC2Q6inURoBh5WF1P9Ejgn5so0dktmuqY5EIYJdJF2HQOQ8F0-KiezGag-YZm1gbttbKMlfCnopQlfMOkJvM35sXfH1xCfzdn6tKF-4shktqYRoFG-6T0HTMe_pRu3bG90w_GSpbBJ59yG3lES264Z6yHXwtL8rhgjOEsu889KwE6xGToSnuQXGqWemZGEs4hBh8XRVebR8uXeQIUcgBpk0u3ypkYa_7Cy04DYUDWQG8JWy2DJMENJ73C0rEuPcS9yvXBzbsyCBNMngyOxeoEP4T5TD752ePs9TUPGRYgn7-VJFcr0UgwYTy0SRCYUlobxu0}{http://www.plantuml.com/plantuml/AUSGABEFORMAT/CODIERTERQUELLTEXT}  
+
+wobei als \textit{AUSGABEFORMAT} \texttt{png}, \texttt{svg}, \texttt{eps}, \texttt{epstext} und \texttt{txt} genutzt werden kann. Wird als \textit{AUSGABEFORMAT} \texttt{uml} gewählt erhält man den bearbeitbaren Quelltext.
+
+Editierbare Links lassen sich auch über den Service von planttext.com erstellen, sie nutzen die selbe Quelltextcodierung und URLs nach dem Muster:
+\href{https://www.planttext.com/?text=bPBFJW8n4CRlVOg9Bs2ywhe199u8CS6OU2pjiDjijqEcKpQ4y6RUV35Ry028YVOuVxxVV5ywYg9PKkzLx5nOQzOzJ76bavTd2ZBNFSBDB1bdDInqYF2wNUF0Jf1lrCdEs8ZREDdk5EGtqQPhc5AmJ-I98GOQZWrYYtmiJZLt2wy59pxXeJjrkgTWBxURbg8CRMQUJVqgfVOdXyr9SFS7zYLqvffMtj7xVFd-p2ap3LUnwf2bkb-ODWSaSFS0AcGySD620wQgF1djNnXDzk34KQZhRriO4Tw8bsXTQ59ee4ynGhMiDyJLxR8-AenJN7r-j5m6RDbX67T51v1pmtk1Y2wen_pEa3d4wyovDkrFQCZLGlqN58E5OZb7GMi5EPDHBfNlzGK0}{https://www.planttext.com/?text=CODIERTERQUELLTEXT}
+
+Auch in den erzeugten PNG-Dateien wird der codierte Quelltext als Titel hinterlegt, so dass sie sich relativ einfach später weiterverarbeiten lassen.
 \newpage
 \section{plantUML-Formatierung: Aufhübschen von Aktivitätsdiagrammen}
 
@@ -559,18 +592,24 @@ Wenn die Diagramme erstmal stehen will man sie aufhübschen. Dafür stehen aller
 \\
 \begin{tabular}[b]{p{5.5cm} p{5.5cm} p{5.5cm}}
 	\raisebox{-\height}{
+		\href{https://www.planttext.com/?text=PL3D3i8W63lBKtn7T_05d35BzEh1NHSFHAeZRe1yJ6EoXnVc_3yLIjkq51oa3rtR2A9-rN6mBNoVBcjS1jnk-j-tmHFHmq6cmrmgHINEdVOjJCW__0VhJn6IXa_qJ5cAoHf1xcincHyHOX8xQnYBqK7oABMX51t0G-2RJgo2Q-mjyJ3gppIMZheI5uthg7kL-Lf3po5qhNK3ccQacQQLTJ0KOclUPMAsh0xQQAwXThbuZ8iHZaGHWzF_tG40}{
 		\includegraphics[width=5cm]{11_aufhuebschen01}
+		}
 	}
 	Minimalbeispiel
 	&
 	
 	\raisebox{-\height}{
+		\href{https://www.planttext.com/?text=ZLB1Ri8m33sJhx0umM4_01DYKEt4a0QxJ8Y3rPWsQffaYKk5W7zVMc03jadBnScpt_Dpad5Wz5oLMeH26OSUIqXeWvNcPsjuZYL1TrQbIY8iqGHuspcglMBoNN75UKfPRHNlzWBYcc1QPDvMHawjjXw2iVKfORqaVm8JzCLI8zD4LzHc4uMbDVAUdUKsS9t7dZTLVqg9uvMnkMNQ_wFtVTEPod9-9wsZy-FDfDxR-dULmxGAR4loX-QGqBQDho-7-rnxwJ5wSeJDPe1Ime8-AkLBCZoyuc-iBrg70mm5N5H6efCGOvgBpY0ZZah1MHFeySm0p50PQAIPGYlu3JUe9AVjhi79o1-ai-bOjw2jelfSzsNcPXgu30BnaJH1hmygG6zb7HdWw3gi--9XjDeeeq9ESZqKf-6YX0CnZiBD1_m4}{
 		\includegraphics[width=5cm]{11_aufhuebschen02}
+		}
 	}
 	Anpassung von Schriftart und Farben
 	& 
 	\raisebox{-\height}{
+		\href{https://www.planttext.com/?text=PL3D3i8W63lBKtn7T_05d35BzEh1NHSFHAeZRe1yJ6EoXnVc_3yLIjkq51oa3rtR2A9-rN6mBNoVBcjS1jnk-j-tmHFHmq6cmrmgHINEdVOjJCW__0VhJn6IXa_qJ5cAoHf1xcincHyHOX8xQnYBqK7oABMX51t0G-2RJgo2Q-mjyJ3gppIMZheI5uthg7kL-Lf3po5qhNK3ccQacQQLTJ0KOclUPMAsh0xQQAwXThbuZ8iHZaGHWzF_tG40}{
 		\includegraphics[width=5cm]{11_aufhuebschen03}
+		}
 	} 
 	
 	Sieht nach Entwurf aus: um die Vorläufigkeit und Änderbarkeit zu unterstreichen kann man es nach einer Skizze aussehen lassen.
