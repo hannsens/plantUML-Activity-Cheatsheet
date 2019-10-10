@@ -39,6 +39,7 @@ unverzweigte Aktivität darstellt, ist rechts dargestellt.
 
 ![einfaches Aktivitätsdiagramm](plantuml/01_aktion_start_stop.png "01_aktion_start_stop")
 
+
 Hinweis: Den meisten Diagrammen in diesem Dokument sind Links zu den
 zugrundeliegenden Vektorgrafiken und Quelltexten hinterlegt. Der die
 komplette URL öffnet das Diagramm, die zweite Hälfte (nach src=) den
