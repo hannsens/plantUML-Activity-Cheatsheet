@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="294px" preserveAspectRatio="none" style="width:330px;height:294px;" version="1.1" viewBox="0 0 330 294" width="330px" zoomAndPan="magnify"><defs><filter height="300%" id="fd5cx2f2ye1yg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><path d="M81.5,10 L81.5,26.2725 L61.5,30.2725 L81.5,34.2725 L81.5,50.5449 A0,0 0 0 0 81.5,50.5449 L190.5,50.5449 A0,0 0 0 0 190.5,50.5449 L190.5,20 L180.5,10 L81.5,10 A0,0 0 0 0 81.5,10 " fill="#FFFFE0" filter="url(#fd5cx2f2ye1yg)" style="stroke: #483D8B; stroke-width: 1.0;"/><path d="M180.5,10 L180.5,20 L190.5,20 L180.5,10 " fill="#FFFFE0" style="stroke: #483D8B; stroke-width: 1.0;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="87.5" y="27.5303">Startpunkt</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="87.5" y="42.8027">Tokenquelle</text><ellipse cx="51.5" cy="30.2725" fill="#000000" filter="url(#fd5cx2f2ye1yg)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><path d="M113,60.5449 L113,92.0898 L93,96.0898 L113,100.0898 L113,131.6348 A0,0 0 0 0 113,131.6348 L318,131.6348 A0,0 0 0 0 318,131.6348 L318,70.5449 L308,60.5449 L113,60.5449 A0,0 0 0 0 113,60.5449 " fill="#FFFFE0" filter="url(#fd5cx2f2ye1yg)" style="stroke: #483D8B; stroke-width: 1.0;"/><path d="M308,60.5449 L308,70.5449 L318,70.5449 L308,60.5449 " fill="#FFFFE0" style="stroke: #483D8B; stroke-width: 1.0;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="119" y="78.0752">Aktion:</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="144" x="119" y="93.3477">in diesem Diagramm</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="176" x="119" y="108.6201">als atomar betrachtete</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="144" x="119" y="123.8926">Funktionseinheiten</text><rect fill="#FFFAFA" filter="url(#fd5cx2f2ye1yg)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="83" x="10" y="79.041"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="20" y="100.6074">Schritt 1</text><rect fill="#FFFAFA" filter="url(#fd5cx2f2ye1yg)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="83" x="10" y="151.6348"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="20" y="173.2012">Schritt 2</text><path d="M82.5,195.7324 L82.5,234.9136 L62.5,238.9136 L82.5,242.9136 L82.5,282.0947 A0,0 0 0 0 82.5,282.0947 L223.5,282.0947 A0,0 0 0 0 223.5,282.0947 L223.5,205.7324 L213.5,195.7324 L82.5,195.7324 A0,0 0 0 0 82.5,195.7324 " fill="#FFFFE0" filter="url(#fd5cx2f2ye1yg)" style="stroke: #483D8B; stroke-width: 1.0;"/><path d="M213.5,195.7324 L213.5,205.7324 L223.5,205.7324 L213.5,195.7324 " fill="#FFFFE0" style="stroke: #483D8B; stroke-width: 1.0;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="88.5" y="213.2627">Endpunkt:</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="88.5" y="228.5352">hier endet</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="88.5" y="243.8076">die modellierte</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="88.5" y="259.0801">Aktivität.</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="88.5" y="274.3525">Tokensenke</text><ellipse cx="51.5" cy="238.9136" fill="#FFFFFF" filter="url(#fd5cx2f2ye1yg)" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="51.5" cy="238.9136" fill="#000000" rx="6" ry="6" style="stroke: #7F7F7F; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="51.5" x2="51.5" y1="40.2725" y2="79.041"/><polygon fill="#483D8B" points="47.5,69.041,51.5,79.041,55.5,69.041,51.5,73.041" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="51.5" x2="51.5" y1="113.1387" y2="151.6348"/><polygon fill="#483D8B" points="47.5,141.6348,51.5,151.6348,55.5,141.6348,51.5,145.6348" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="51.5" x2="51.5" y1="185.7324" y2="227.9136"/><polygon fill="#483D8B" points="47.5,217.9136,51.5,227.9136,55.5,217.9136,51.5,221.9136" style="stroke: #483D8B; stroke-width: 1.0;"/><!--
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+
+
+
+start
+note right 
+	Startpunkt
+	Tokenquelle
+end note
+:Schritt 1;
+note right
+	Aktion: 
+	in diesem Diagramm 
+	als atomar betrachtete 
+	Funktionseinheiten
+end note
+:Schritt 2;
+stop
+note right 
+	Endpunkt:
+	hier endet 
+	die modellierte
+	Aktivität.
+	Tokensenke
+end note
+
+@enduml
+
+PlantUML version 1.2019.09(Mon Aug 26 18:19:51 CEST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 11.0.4+10-LTS
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
