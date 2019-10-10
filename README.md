@@ -26,8 +26,7 @@ konkreten Akteurinnen oder Systemen zugewiesen werden.
 
 Das Tokenmodell im Flussdiagramm: mit Knoten und Kanten
 =======================================================
-
-p10cm p7cm Aktivitätsdiagramme bestehen aus **Knoten** und **Kanten**.
+Aktivitätsdiagramme bestehen aus **Knoten** und **Kanten**.
 Sie nutzen das Tokenmodell: ein *Token* ist eine gedachte Markierung
 (*Token*) kennzeichnet die momentan ausgeführten Aktionen - vergleichbar
 mit dem springenden Punkt beim Karaokesingen. Ein Token wird im
@@ -38,7 +37,7 @@ der Token konsumiert und die Aktivität so beendet.
 Ein minimales mit PlantUML modelliertes Aktivitätsdiagramm, das einen
 unverzweigte Aktivität darstellt, ist rechts dargestellt.
 
-&
+![einfaches Aktivitätsdiagramm](plantuml/01_aktion_start_stop.png "01_aktion_start_stop")
 
 Hinweis: Den meisten Diagrammen in diesem Dokument sind Links zu den
 zugrundeliegenden Vektorgrafiken und Quelltexten hinterlegt. Der die
