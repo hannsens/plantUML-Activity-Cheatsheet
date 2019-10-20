@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="447px" preserveAspectRatio="none" style="width:608px;height:447px;" version="1.1" viewBox="0 0 608 447" width="608px" zoomAndPan="magnify"><defs><filter height="300%" id="f1oqxnfrkde91" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="79" cy="48.4434" fill="#000000" filter="url(#f1oqxnfrkde91)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FFFAFA" filter="url(#f1oqxnfrkde91)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="118" x="20" y="122.4434"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="30" y="144.0098">add Requirment</text><polygon fill="#F8F8FF" filter="url(#f1oqxnfrkde91)" points="79,78.4434,91,90.4434,79,102.4434,67,90.4434,79,78.4434" style="stroke: #483D8B; stroke-width: 1.5;"/><polygon fill="#F8F8FF" filter="url(#f1oqxnfrkde91)" points="79,351.7363,79,351.7363,91,363.7363,79,375.7363,79,375.7363,67,363.7363,79,351.7363" style="stroke: #483D8B; stroke-width: 1.5;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="91" y="361.416">[open tasks]</text><rect fill="#000000" filter="url(#f1oqxnfrkde91)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="284" x="231.5" y="176.541"/><polygon fill="#FFFAFA" filter="url(#f1oqxnfrkde91)" points="243.5,202.541,347.5,202.541,357.5,219.5898,347.5,236.6387,243.5,236.6387" style="stroke: #483D8B; stroke-width: 1.5;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="253.5" y="224.1074">ask Customer</text><polygon fill="#FFFAFA" filter="url(#f1oqxnfrkde91)" points="243.5,271.6387,357.5,271.6387,347.5,288.6875,357.5,305.7363,243.5,305.7363" style="stroke: #483D8B; stroke-width: 1.5;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="253.5" y="293.2051">get response</text><rect fill="#FFFAFA" filter="url(#f1oqxnfrkde91)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="48" x="367.5" y="237.0898"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="377.5" y="258.6563">test</text><rect fill="#FFFAFA" filter="url(#f1oqxnfrkde91)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="62" x="441.5" y="209.5898"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="451.5" y="231.1563">deploy</text><ellipse cx="472.5" cy="288.6875" fill="#FFFFFF" filter="url(#f1oqxnfrkde91)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 2.5;" x1="466.3128" x2="478.6872" y1="282.5003" y2="294.8747"/><line style="stroke: #000000; stroke-width: 2.5;" x1="478.6872" x2="466.3128" y1="282.5003" y2="294.8747"/><rect fill="#000000" filter="url(#f1oqxnfrkde91)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="284" x="231.5" y="325.7363"/><ellipse cx="415.5" cy="424.3582" fill="#FFFFFF" filter="url(#f1oqxnfrkde91)" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="415.5" cy="424.3582" fill="#000000" rx="6" ry="6" style="stroke: #7F7F7F; stroke-width: 1.0;"/><rect fill="#FFFAFA" filter="url(#f1oqxnfrkde91)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="62" x="525.5" y="237.0898"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="535.5" y="258.6563">Review</text><line style="stroke: #483D8B; stroke-width: 1.5;" x1="79" x2="79" y1="102.4434" y2="122.4434"/><polygon fill="#483D8B" points="75,112.4434,79,122.4434,83,112.4434,79,116.4434" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="91" x2="217.5" y1="363.7363" y2="363.7363"/><polygon fill="#483D8B" points="213.5,229.5898,217.5,219.5898,221.5,229.5898,217.5,225.5898" style="stroke: #483D8B; stroke-width: 1.5;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="217.5" x2="217.5" y1="90.4434" y2="363.7363"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="217.5" x2="91" y1="90.4434" y2="90.4434"/><polygon fill="#483D8B" points="101,86.4434,91,90.4434,101,94.4434,97,90.4434" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="79" x2="79" y1="58.4434" y2="78.4434"/><polygon fill="#483D8B" points="75,68.4434,79,78.4434,83,68.4434,79,72.4434" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="472.5" x2="472.5" y1="243.6875" y2="278.6875"/><polygon fill="#483D8B" points="468.5,268.6875,472.5,278.6875,476.5,268.6875,472.5,272.6875" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="295.5" x2="295.5" y1="182.541" y2="202.541"/><polygon fill="#483D8B" points="291.5,192.541,295.5,202.541,299.5,192.541,295.5,196.541" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="391.5" x2="391.5" y1="182.541" y2="237.0898"/><polygon fill="#483D8B" points="387.5,227.0898,391.5,237.0898,395.5,227.0898,391.5,231.0898" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="472.5" x2="472.5" y1="182.541" y2="209.5898"/><polygon fill="#483D8B" points="468.5,199.5898,472.5,209.5898,476.5,199.5898,472.5,203.5898" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="295.5" x2="295.5" y1="305.7363" y2="325.7363"/><polygon fill="#483D8B" points="291.5,315.7363,295.5,325.7363,299.5,315.7363,295.5,319.7363" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="391.5" x2="391.5" y1="271.1875" y2="325.7363"/><polygon fill="#483D8B" points="387.5,315.7363,391.5,325.7363,395.5,315.7363,391.5,319.7363" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="508.5" x2="508.5" y1="182.541" y2="186.541"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="508.5" x2="556.5" y1="186.541" y2="186.541"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="556.5" x2="556.5" y1="186.541" y2="237.0898"/><polygon fill="#483D8B" points="552.5,227.0898,556.5,237.0898,560.5,227.0898,556.5,231.0898" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="556.5" x2="556.5" y1="271.1875" y2="311.7363"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="556.5" x2="508.5" y1="311.7363" y2="311.7363"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="508.5" x2="508.5" y1="311.7363" y2="325.7363"/><polygon fill="#483D8B" points="504.5,315.7363,508.5,325.7363,512.5,315.7363,508.5,319.7363" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="79" x2="79" y1="156.541" y2="161.541"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="79" x2="415.5" y1="161.541" y2="161.541"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="415.5" x2="415.5" y1="161.541" y2="176.541"/><polygon fill="#483D8B" points="411.5,166.541,415.5,176.541,419.5,166.541,415.5,170.541" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="415.5" x2="415.5" y1="331.7363" y2="336.7363"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="415.5" x2="79" y1="336.7363" y2="336.7363"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="79" x2="79" y1="336.7363" y2="351.7363"/><polygon fill="#483D8B" points="75,341.7363,79,351.7363,83,341.7363,79,345.7363" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="79" x2="79" y1="375.7363" y2="398.3582"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="79" x2="415.5" y1="398.3582" y2="398.3582"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="415.5" x2="415.5" y1="398.3582" y2="413.3582"/><polygon fill="#483D8B" points="411.5,403.3582,415.5,413.3582,419.5,403.3582,415.5,407.3582" style="stroke: #483D8B; stroke-width: 1.0;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="83" y="391.8582">[finished]</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="88" x="115.5" y="29.6465">Customer</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="33" x="398.5" y="29.6465">Dev</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="22" x="545" y="29.6465">QM</text><line style="stroke: #000000; stroke-width: 2.0;" x1="10" x2="10" y1="12.2969" y2="435.3582"/><line style="stroke: #000000; stroke-width: 2.0;" x1="226.5" x2="226.5" y1="12.2969" y2="435.3582"/><line style="stroke: #000000; stroke-width: 2.0;" x1="520.5" x2="520.5" y1="12.2969" y2="435.3582"/><line style="stroke: #000000; stroke-width: 2.0;" x1="596.5" x2="596.5" y1="12.2969" y2="435.3582"/><!--
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+  |Customer|
+  |Dev|
+  |QM|
+  |Customer|
+  start
+  repeat
+  :add Requirment;
+  |Dev|
+  fork
+    :ask Customer>
+	Detach
+	:get response<
+  fork again 
+  :test;
+  fork again
+  :deploy;
+  end
+  fork again 
+  |QM|
+    :Review;
+  end fork
+   |Customer|
+     repeat while () is ([open tasks])
+->[finished];
+|Dev|
+stop 
+@enduml
+
+PlantUML version 1.2019.09(Mon Aug 26 18:19:51 CEST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 11.0.4+10-LTS
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

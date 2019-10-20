@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="201px" preserveAspectRatio="none" style="width:354px;height:201px;" version="1.1" viewBox="0 0 354 201" width="354px" zoomAndPan="magnify"><defs><filter height="300%" id="f1d8mk095ep8uq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="164.25" cy="20" fill="#000000" filter="url(#f1d8mk095ep8uq)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><polygon fill="#F8F8FF" filter="url(#f1d8mk095ep8uq)" points="164.25,50,164.25,50,176.25,62,164.25,74,164.25,74,152.25,62,164.25,50" style="stroke: #483D8B; stroke-width: 1.5;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="33.25" y="59.6797">[Code fehlerfrei]</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="42" x="176.25" y="59.6797">[else]</text><rect fill="#FFFAFA" filter="url(#f1d8mk095ep8uq)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="132" x="10" y="84"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="112" x="20" y="105.5664">Code compilieren</text><rect fill="#FFFAFA" filter="url(#f1d8mk095ep8uq)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="181" x="162" y="84"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="161" x="172" y="105.5664">Fehlermeldung erstellen</text><polygon fill="#F8F8FF" filter="url(#f1d8mk095ep8uq)" points="164.25,124.0977,176.25,136.0977,164.25,148.0977,152.25,136.0977,164.25,124.0977" style="stroke: #483D8B; stroke-width: 1.5;"/><ellipse cx="164.25" cy="179.0977" fill="#FFFFFF" filter="url(#f1d8mk095ep8uq)" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="164.25" cy="179.0977" fill="#000000" rx="6" ry="6" style="stroke: #7F7F7F; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="152.25" x2="76" y1="62" y2="62"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="76" x2="76" y1="62" y2="84"/><polygon fill="#483D8B" points="72,74,76,84,80,74,76,78" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="176.25" x2="252.5" y1="62" y2="62"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="252.5" x2="252.5" y1="62" y2="84"/><polygon fill="#483D8B" points="248.5,74,252.5,84,256.5,74,252.5,78" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="76" x2="76" y1="118.0977" y2="136.0977"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="76" x2="152.25" y1="136.0977" y2="136.0977"/><polygon fill="#483D8B" points="142.25,132.0977,152.25,136.0977,142.25,140.0977,146.25,136.0977" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="252.5" x2="252.5" y1="118.0977" y2="136.0977"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="252.5" x2="176.25" y1="136.0977" y2="136.0977"/><polygon fill="#483D8B" points="186.25,132.0977,176.25,136.0977,186.25,140.0977,182.25,136.0977" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="164.25" x2="164.25" y1="30" y2="50"/><polygon fill="#483D8B" points="160.25,40,164.25,50,168.25,40,164.25,44" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="164.25" x2="164.25" y1="148.0977" y2="168.0977"/><polygon fill="#483D8B" points="160.25,158.0977,164.25,168.0977,168.25,158.0977,164.25,162.0977" style="stroke: #483D8B; stroke-width: 1.0;"/><!--
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+
+start
+if() then ([Code fehlerfrei])
+:Code compilieren;
+else ([else])
+:Fehlermeldung erstellen;
+endif
+stop
+	
+@enduml
+
+PlantUML version 1.2019.09(Mon Aug 26 18:19:51 CEST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 11.0.4+10-LTS
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

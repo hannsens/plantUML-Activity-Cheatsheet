@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="204px" preserveAspectRatio="none" style="width:442px;height:204px;" version="1.1" viewBox="0 0 442 204" width="442px" zoomAndPan="magnify"><defs><filter height="300%" id="fvy6tv5y4u8sk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="51.5" cy="20" fill="#000000" filter="url(#fvy6tv5y4u8sk)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><path d="M113,40 L113,91.8174 L93,95.8174 L113,99.8174 L113,151.6348 A0,0 0 0 0 113,151.6348 L430,151.6348 A0,0 0 0 0 430,151.6348 L430,50 L420,40 L113,40 A0,0 0 0 0 113,40 " fill="#FFFFE0" filter="url(#fvy6tv5y4u8sk)" style="stroke: #483D8B; stroke-width: 1.0;"/><path d="M420,40 L420,50 L430,50 L420,40 " fill="#FFFFE0" style="stroke: #483D8B; stroke-width: 1.0;"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="119" y="57.5303">&lt;&lt;localPrecondition&gt;&gt;</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="184" x="119" y="72.8027">Diese Vorbedingung muss</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="24" x="311" y="72.8027">vor</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="343" y="72.8027"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="296" x="119" y="88.0752">Ausführung dieser Aktion erfüllt sein</text><line style="stroke: #483D8B; stroke-width: 1.0;" x1="113" x2="430" y1="95.8174" y2="95.8174"/><line style="stroke: #483D8B; stroke-width: 1.0;" x1="113" x2="430" y1="97.8174" y2="97.8174"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="176" x="119" y="113.3477">&lt;&lt;localPostcondition&gt;&gt;</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="192" x="119" y="128.6201">Diese Nachbedingung muss</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="319" y="128.6201">nach</text><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="296" x="119" y="143.8926">Ausführung dieser Aktion erfüllt sein</text><rect fill="#FFFAFA" filter="url(#fvy6tv5y4u8sk)" height="34.0977" rx="12.5" ry="12.5" style="stroke: #483D8B; stroke-width: 1.5;" width="83" x="10" y="78.7686"/><text fill="#000000" font-family="Lucida Sans Typewriter" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="20" y="100.335">Schritt 1</text><ellipse cx="51.5" cy="182.6348" fill="#FFFFFF" filter="url(#fvy6tv5y4u8sk)" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="51.5" cy="182.6348" fill="#000000" rx="6" ry="6" style="stroke: #7F7F7F; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="51.5" x2="51.5" y1="30" y2="78.7686"/><polygon fill="#483D8B" points="47.5,68.7686,51.5,78.7686,55.5,68.7686,51.5,72.7686" style="stroke: #483D8B; stroke-width: 1.0;"/><line style="stroke: #483D8B; stroke-width: 1.5;" x1="51.5" x2="51.5" y1="112.8662" y2="171.6348"/><polygon fill="#483D8B" points="47.5,161.6348,51.5,171.6348,55.5,161.6348,51.5,165.6348" style="stroke: #483D8B; stroke-width: 1.0;"/><!--
+@startuml
+skinparam DefaultFontName "Lucida Sans Typewriter"
+
+skinparam Activity{
+    BackgroundColor snow
+    BorderColor DarkSlateBlue
+    DiamondBackgroundColor ghostwhite
+    DiamondBorderColor DarkSlateBlue
+
+}
+skinparam Note{
+    BorderColor DarkSlateBlue
+    BackgroundColor LightYellow
+}
+
+skinparam ArrowColor DarkSlateBlue
+
+
+start
+:Schritt 1; 
+note right 
+<<localPrecondition>>
+Diese Vorbedingung muss <b>vor</b> 
+Ausführung dieser Aktion erfüllt sein
+====
+<<localPostcondition>>
+Diese Nachbedingung muss <b>nach</b>
+Ausführung dieser Aktion erfüllt sein
+end note
+stop
+ 
+
+
+@enduml
+
+PlantUML version 1.2019.09(Mon Aug 26 18:19:51 CEST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 11.0.4+10-LTS
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
