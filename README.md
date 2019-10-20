@@ -37,7 +37,7 @@ der Token konsumiert und die Aktivität so beendet.
 Ein minimales mit PlantUML modelliertes Aktivitätsdiagramm, das einen
 unverzweigte Aktivität darstellt, ist rechts dargestellt.
 
-![einfaches Aktivitätsdiagramm](plantuml/01_aktion_start_stop.png "01_aktion_start_stop")
+![einfaches Aktivitätsdiagramm](plantuml/01_aktion_start_stop.svg "01_aktion_start_stop")
 
 
 Hinweis: Den meisten Diagrammen in diesem Dokument sind Links zu den
