@@ -8,15 +8,18 @@ skinparam packageStyle rect
 skinparam shadowing false
 
 
-  |Customer|
+ |QM|
   |Dev|
-  |QM|
   |Customer|
   start
   repeat
   :add Requirment;
   |Dev|
   fork
+    |QM|
+    :Review;
+    |Dev|
+    fork again 
     :ask Customer>
 	Detach
 	:get response<
@@ -25,9 +28,7 @@ skinparam shadowing false
   fork again
   :deploy;
   end
-  fork again 
-  |QM|
-    :Review;
+ |Dev|
   end fork
    |Customer|
      repeat while () is ([open tasks])
